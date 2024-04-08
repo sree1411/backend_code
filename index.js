@@ -12,7 +12,7 @@
 
  dotEnv.config()
  mongoose.connect(process.env.MONGOOSE_URI).then(()=>{
-    console.log('mongodb connection success..')
+    console.log('mongodb connection success.....')
  })
 
 
